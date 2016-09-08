@@ -1,0 +1,131 @@
+html {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #e3f4ff;;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: Verdana, sans-serif;
+	font-size: 1.1vw;
+		}
+		
+hr {
+  border: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+a:link {
+	color: #e3f4ff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e3f4ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffcc00;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #e3f4ff;
+	text-decoration: none;
+}
+			
+#wrapper {
+	background-color: #0171d0;
+	width: 96%;
+	height: 42em;
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: .66em 0 0 .66em;
+	display: inline-block;
+		}
+		
+#footer {
+	width: 50%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: .66em;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0 2em 0 2em;
+    padding: 0 2em 0 2em;
+	width: 90%;
+	float: left;
+	background-color: #ffcc00;
+	text-align: center;
+	display: inline-block;
+}
+
+#nav li {
+    float: right;
+	padding: 1em;
+	background-color: #ffcc00;
+	margin: 0;
+}
+
+#nav li a {
+		display: block;
+		text-decoration: none;
+		font-weight: bold;
+		color: #fff; 
+		cursor: default;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li:hover {
+    background-color: #213647;
+}
+
+.centeredimg {
+	margin: 0 auto;
+}
+		
+.box {
+	background-color: #213647;
+	color: #FFF;
+	float: left;
+	padding: 2em 2em 2em 2em;
+	margin: 2em 2em 2em 2em;
+	display: inline;
+	text-align: center;
+}
+
+.box2 {
+	background-color: #213647;
+	color: #FFF;
+	float: left;
+	padding: 2em 2em 2em 2em;
+	margin: 0em 2em 2em 2em;
+	display: inline;
+	text-align: center;
+}
+
+.boxred {
+	background-color: #991122;
+	color: #FFF;
+	float: left;
+	padding: 2% 2.5%;
+	margin: 2% 2.5%;
+	display: inline;
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	position: absolute;
+	left: 5%;
+	top: 0;
+	height: 6em;
+}
