@@ -9,7 +9,7 @@
 <div id="wrapper">
 
 <ul id="nav">
-	<img src="logo2.png" class="logo" alt="UNCG College Democrats" title="UNCG College Democrats"/>
+	<img src="img/logo2.png" class="logo" alt="UNCG College Democrats" title="UNCG College Democrats"/>
 	<a href="contact.html"><li>CONTACT</li>	</a>
 	<a href="documents.html"><li>DOCUMENTS</li></a>
 	<a href="board.html"><li>BOARD</li></a>
@@ -17,11 +17,34 @@
 	<a href="index.html"><li class="active">HOME</li></a>
 
 </ul>
-<div class="box1"><img src="splash.png" class="centeredimg" id="splash"/></div>
+<div class="box1">
+<!-- Images must be 900wx550h or larger at same aspect ratio -->
+	<img src="img/flier.png" class="splash"/>
+	<img src="img/slide1.png" class="splash"/>
+	<img src="img/slide2.png" class="splash"/>
+	<img src="img/slide3.png" class="splash"/>
+</div>
 
-<div class="box2"><img src="mindem.png" class=centeredimg" id="minervalogo"/><br/>The UNCG College Democrats is an organization of politically engaged, progressive college students. <strong><a href="signup.html">Join us</a></strong> to help actively promote progressive thought and action on campus, in the community, and throughout the region.</div>
+<script>
+var myIndex = 0;
+carousel();
 
-<div class="box3">Can't get enough of the UNCG College Dems?<hr style="width: 50%;"/>Like us on <a href="https://www.facebook.com/uncgdemocrats/">Facebook</a>!</div>
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("splash");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
+<div class="box2"><img src="img/mindem.png" class=centeredimg" id="minervalogo"/><br/>The UNCG College Democrats is an organization of politically engaged, progressive college students. <strong><a href="contact.html">Join us</a></strong> to help actively promote progressive thought and action on campus, in the community, and throughout the region.</div>
+
+<div class="box3">Can't get enough of the UNCG College Dems?<hr style="width: 50%;"/>Like us on <strong><a href="https://www.facebook.com/uncgdemocrats/">Facebook</a></strong>!</div>
 
 </div>
 

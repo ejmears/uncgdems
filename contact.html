@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UNCG College Democrats</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+</head>
+<body>
+
+<div id="wrapper">
+
+<ul id="nav">
+	<img src="img/logo2.png" class="logo" alt="UNCG College Democrats" title="UNCG College Democrats"/>
+	<a href="contact.html"><li class="active">CONTACT</li>	</a>
+	<a href="documents.html"><li>DOCUMENTS</li></a>
+	<a href="board.html"><li>BOARD</li></a>
+	<a href="about.html"><li>ABOUT</li></a>
+	<a href="index.html"><li>HOME</li></a>
+
+</ul>
+<div class="box1">
+
+	<h1>CONTACT US</h1>
+	
+	<div style="font-style: italic;">In addition to the use of this form, you can contact the UNCG Democrats at <strong><a href="mailto:cndetwil@uncg.edu">our email address</a></strong>.<br><br></div>
+
+	<form name="contact" method="post" action="mailto:cndetwil@uncg.edu">
+	
+		<fieldset>
+		
+			<legend>1: Information</legend>
+				<label class="nameemail" id="name">
+					<span>Name:<br></span>
+					<input type="text" name="name" maxlength="30" onfocus="if(this.placeholder == 'Your Name') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Your Name'; }" placeholder="Your Name">
+				</label>
+				<label class="nameemail" id="email">
+					<span>Email:<br></span>
+					<input type="email" name="email" maxlength="30" onfocus="if(this.placeholder == 'email@website.com') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'email@website.com'; }" placeholder="email@website.com">
+				</label>
+				
+				<label class="nameemail" id="subject">
+					<span>Subject:<br></span>
+					<input type="text" name="subject" maxlength="45" onfocus="if(this.placeholder == 'Subject Goes Here') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Subject Goes Here'; }" placeholder="Subject Goes Here">
+				</label>
+		
+		</fieldset>
+		<fieldset>
+		
+			<legend>2: Message</legend>
+		
+				<label>
+					<span>Message:<br></span><textarea onfocus="if(this.placeholder == 'Your Message Here') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Your Message Here'; }" placeholder="Your Message Here"></textarea>
+				</label>
+			
+		</fieldset>
+		<fieldset>
+		
+			<legend>3: Submit Information</legend>
+		
+			<input type="submit" class="button" id="submit" value="Submit"><input type="reset" class="button" id="reset" value="Clear">
+			
+		</fieldset>
+	
+	</form>
+
+</div>
+
+<div class="box2"><img src="img/mindem.png" class=centeredimg" id="minervalogo"/><br/>The UNCG College Democrats is an organization of politically engaged, progressive college students. <strong><a href="contact.html">Join us</a></strong> to help actively promote progressive thought and action on campus, in the community, and throughout the region.</div>
+
+<div class="box3">Can't get enough of the UNCG College Dems?<hr style="width: 50%;"/>Like us on <strong><a href="https://www.facebook.com/uncgdemocrats/">Facebook</a></strong>!</div>
+
+</div>
+
+<div id="footer">Copyright &copy; 2016 UNCG College Democrats</div>
+
+</body>
+</html>
