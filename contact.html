@@ -23,7 +23,7 @@
 	
 	<div style="font-style: italic;">In addition to the use of this form, you can contact the UNCG Democrats at <strong><a href="mailto:cndetwil@uncg.edu">our email address</a></strong>.<br><br></div>
 
-	<form name="contact" method="post" action="mailto:cndetwil@uncg.edu">
+	<form name="contact" method="post" action="https://formspree.io/cndetwil@uncg.edu">
 	
 		<fieldset>
 		
@@ -34,12 +34,12 @@
 				</label>
 				<label class="nameemail" id="email">
 					<span>Email:<br></span>
-					<input type="email" name="email" maxlength="30" onfocus="if(this.placeholder == 'email@website.com') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'email@website.com'; }" placeholder="email@website.com">
+					<input type="email" name="_replyto" maxlength="30" onfocus="if(this.placeholder == 'email@website.com') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'email@website.com'; }" placeholder="email@website.com">
 				</label>
 				
 				<label class="nameemail" id="subject">
 					<span>Subject:<br></span>
-					<input type="text" name="subject" maxlength="45" onfocus="if(this.placeholder == 'Subject Goes Here') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Subject Goes Here'; }" placeholder="Subject Goes Here">
+					<input type="text" name="_subject" maxlength="45" onfocus="if(this.placeholder == 'Subject Goes Here') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Subject Goes Here'; }" placeholder="Subject Goes Here">
 				</label>
 		
 		</fieldset>
@@ -59,6 +59,8 @@
 			<input type="submit" class="button" id="submit" value="Submit"><input type="reset" class="button" id="reset" value="Clear">
 			
 		</fieldset>
+		
+		<input type="hidden" name="_next" value="contact.html" />
 	
 	</form>
 
